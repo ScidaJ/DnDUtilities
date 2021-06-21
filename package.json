@@ -5,6 +5,7 @@
   "scripts": {
     "reset": "rimraf player-deck.txt && npm run setup",
     "setup": "node setup.js",
+    "deck": "node showDeck.js",
     "shuffle": "node shuffle.js"
   },
   "repository": {
