@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Tracker for a Deck of Illusions for Dungeons and Dragons 5th Edition",
   "scripts": {
-    "setup": "node setup.js"
+    "reset": "rimraf player-deck.txt && npm run setup",
+    "setup": "node setup.js",
+    "shuffle": "node shuffle.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +18,7 @@
   },
   "homepage": "https://github.com/jrs8979/DeckOfIllusionsTracker#readme",
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "rimraf": "^3.0.2"
   }
 }
