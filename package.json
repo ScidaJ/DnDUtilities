@@ -1,10 +1,9 @@
 {
   "name": "deckofillusionstracker",
   "version": "1.0.0",
-  "description": "Tracker for a Deck of Illusion for Dungeons and Dragons 5th Edition",
-  "main": "index.js",
+  "description": "Tracker for a Deck of Illusions for Dungeons and Dragons 5th Edition",
   "scripts": {
-    "test": "npm run deck"
+    "setup": "node setup.js"
   },
   "repository": {
     "type": "git",
