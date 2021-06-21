@@ -28,3 +28,5 @@ function setup() {
       console.error(err);
   })
 }
+
+setup();
