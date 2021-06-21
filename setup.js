@@ -22,11 +22,10 @@ function setup() {
     }
   }
   playerDeck = playerDeck.slice(0, -1);
-  console.log(playerDeck);
   fs.writeFile('./player-deck.txt', playerDeck, (err) => {
     if(err)
       console.error(err);
-  })
+  });
 }
 
 setup();
