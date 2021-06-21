@@ -1,0 +1,22 @@
+{
+  "name": "deckofillusionstracker",
+  "version": "1.0.0",
+  "description": "Tracker for a Deck of Illusion for Dungeons and Dragons 5th Edition",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run deck"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrs8979/DeckOfIllusionsTracker.git"
+  },
+  "author": "Jacob Scida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrs8979/DeckOfIllusionsTracker/issues"
+  },
+  "homepage": "https://github.com/jrs8979/DeckOfIllusionsTracker#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
