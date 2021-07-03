@@ -9,7 +9,7 @@ function displayDeck() {
   for(const card of playerDeck) {
     console.log(referenceDeck[card]);
   }
-  console.log('\nYou have ' + (playerDeck.length + 1) + ' cards left.');
+  console.log('\nYou have ' + (playerDeck.length) + ' cards left.');
 }
 
 displayDeck();
