@@ -17,3 +17,6 @@ Once in, type `npm install` to install the things needed for the project. Type `
 ### Deck Creation
 You will be asked to enter the cards that are missing from your deck. Follow this format `da,j1,c10` where the first letter is the face of the card, followed by either the first letter or the number of the card.
 For jokers, if missing just one, place a 1 after the j, and if missing both place a 2. If no number is given, it will be assumed that both jokers are missing.
+## TODO
+Add Deck of Many Things tracker
+
